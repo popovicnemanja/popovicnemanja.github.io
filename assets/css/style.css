@@ -1,5 +1,7 @@
 html {
   scroll-behavior: smooth;
+  height: 100vh;
+  height: -webkit-fill-available;
 }
 
 :root {
@@ -15,6 +17,7 @@ html {
 }
 
 body {
+  height: -webkit-fill-available;
   margin: 0;
   font-family: var(--ff-main);
   font-size: 1.6rem;
