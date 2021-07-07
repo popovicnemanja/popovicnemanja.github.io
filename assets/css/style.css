@@ -37,7 +37,7 @@ a {
 
 .intro,
 #portfolio {
-  height: 100vh;
+  height: 110vh;
   display: flex;
   position: relative;
   flex-direction: column;
