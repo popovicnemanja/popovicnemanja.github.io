@@ -55,7 +55,7 @@ a {
 .container {
   width: 100%;
   max-width: 114rem;
-  min-height: 100vh;
+  height: 100vh;
   margin: 0 auto;
   padding: 20rem 2rem 0 2rem;
   display: flex;
@@ -64,7 +64,7 @@ a {
 }
 
 .content {
-  margin-bottom: 27vh;
+  margin-bottom: 25vh;
   text-align: center;
   transition: 0.3s transform;
 }
@@ -194,6 +194,10 @@ a {
   }
 
   .content__description {
+    font-size: 2rem;
+  }
+
+  .content__text {
     font-size: 2rem;
   }
 
