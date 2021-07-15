@@ -1,17 +1,19 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
 :root {
   --ff-main: "Roboto", sans-serif;
   --ff-heading: "Montserrat", sans-serif;
   font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -38,13 +40,18 @@ a {
   overflow: hidden;
 }
 
+.container {
+  width: 100%;
+  max-width: 120rem;
+}
+
+.header__container {
+  padding: 3rem 2rem 0;
+}
+
 .logo {
   width: 5rem;
   height: 5rem;
-  position: fixed;
-  z-index: 9999;
-  top: 3rem;
-  left: 1.5rem;
 }
 
 .logo__image {
@@ -52,12 +59,10 @@ a {
   height: 100%;
 }
 
-.container {
-  width: 100%;
-  max-width: 114rem;
+.main__container {
   height: 100vh;
   margin: 0 auto;
-  padding: 25rem 2rem 0;
+  padding: 15rem 2rem 0;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -65,7 +70,7 @@ a {
 }
 
 .content {
-  margin-bottom: 12rem;
+  margin-bottom: 14rem;
   text-align: center;
   transition: 0.3s transform;
 }
@@ -91,12 +96,19 @@ a {
   font-size: 1.6rem;
 }
 
-.btn {
+#btn {
+  width: 18rem;
   margin-bottom: 2rem;
   padding: 2rem 3.5rem;
   border: 1px solid #fff;
   border-radius: 1rem;
   text-transform: uppercase;
+  background: transparent;
+  color: white;
+}
+
+#btn:hover {
+  cursor: pointer;
 }
 
 .social {
@@ -142,9 +154,9 @@ a {
 .portfolio {
   width: 100%;
   padding: 0 2rem;
-  transition: 0.3s all;
+  transition: 0.3s transform;
   position: absolute;
-  top: 12rem;
+  top: 0;
   transform: translateX(100vw);
 }
 
@@ -159,7 +171,7 @@ a {
 }
 
 .portfolio__list {
-  max-width: 23rem;
+  max-width: 21rem;
   padding: 0;
   margin: 0 auto;
   display: flex;
@@ -173,6 +185,7 @@ a {
 .portfolio__item {
   width: 100%;
   padding: 1rem;
+  line-height: 0;
 }
 
 .portfolio__image {
@@ -184,6 +197,10 @@ a {
     width: 8rem;
     height: 8rem;
     left: 5rem;
+  }
+
+  .content {
+    margin-bottom: 15rem;
   }
 
   .content__title {
@@ -198,17 +215,20 @@ a {
     font-size: 2rem;
   }
 
-  .btn {
+  #btn {
+    width: 21rem;
+    padding: 1.5rem 2rem;
     font-size: 2rem;
-    padding: 3rem 3.5rem;
+    transition: 0.3s all;
   }
 
-  .btn:hover {
-    box-shadow: 0 0 0.5rem 0.1rem #fff;
+  #btn:hover {
+    background: white;
+    color: #333;
   }
 
   .portfolio {
-    top: 21rem;
+    top: 12rem;
   }
 
   .portfolio__list {

@@ -4,3 +4,12 @@ $(document).ready(function() {
         $('[data-portfolio]').toggleClass('move-in-bottom');
     });
  });
+
+ let button = document.getElementById('btn')
+ function change() {
+     if(button.innerHTML === 'my projects') {
+         button.innerHTML = 'back to home';
+     } else {
+         button.innerHTML = 'my projects'
+     }
+ }  
