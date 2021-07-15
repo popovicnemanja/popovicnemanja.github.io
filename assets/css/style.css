@@ -14,12 +14,9 @@
 
 html {
   scroll-behavior: smooth;
-  min-height: -webkit-fill-available;
 }
 
 body {
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
   margin: 0;
   font-family: var(--ff-main);
   font-size: 1.6rem;
@@ -36,6 +33,7 @@ a {
 }
 
 .wrapper {
+  min-height: 100vh;
   width: 100vw;
   background: url(../img/background.jpg) no-repeat;
   background-size: cover;
