@@ -37,6 +37,7 @@ a {
 
 .wrapper {
     width: 100vw;
+    height: 100vh;
     background: url(../img/background.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -65,7 +66,6 @@ a {
 }
 
 .main__container {
-    height: 100vh;
     margin: 0 auto;
     padding: 14rem 2rem 0;
     position: relative;
@@ -75,7 +75,7 @@ a {
 }
 
 .content {
-    margin-bottom: 14rem;
+    margin-bottom: 20rem;
     text-align: center;
     transition: .3s transform;
 }
