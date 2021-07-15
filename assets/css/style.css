@@ -185,6 +185,9 @@ a {
   width: 100%;
   padding: 1rem;
   line-height: 0;
+}
+
+.portfolio__link {
   position: relative;
 }
 
@@ -199,7 +202,6 @@ a {
   place-items: center;
   font-size: 2rem;
   color: #333;
-  border: 1rem solid #333;
   background: rgba(255, 255, 255, 0.5);
   animation: 0.5s scale;
 }
