@@ -15,10 +15,13 @@
 
 html {
     scroll-behavior: smooth;
+    min-height: -webkit-fill-available;
 }
 
 
 body {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
     margin: 0;
     font-family: var(--ff-main);
     font-size: 1.6rem;
@@ -40,7 +43,6 @@ a {
     background: url(../img/background.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    overflow: hidden;
 }
 
 .container {
@@ -65,7 +67,6 @@ a {
 }
 
 .main__container {
-    height: 100vh;
     margin: 0 auto;
     padding: 15rem 2rem 0;
     position: relative;
