@@ -37,7 +37,6 @@ a {
 
 .wrapper {
     width: 100vw;
-    height: 100vh;
     background: url(../img/background.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -66,8 +65,9 @@ a {
 }
 
 .main__container {
+    height: 100vh;
     margin: 0 auto;
-    padding: 14rem 2rem 0;
+    padding: 15rem 2rem 0;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -75,7 +75,7 @@ a {
 }
 
 .content {
-    margin-bottom: 20rem;
+    margin-bottom: 22rem;
     text-align: center;
     transition: .3s transform;
 }
@@ -162,7 +162,7 @@ a {
     padding: 0 2rem;
     transition: .3s transform;
     position: absolute;
-    top: 0;
+    top: 2rem;
     transform: translateX(100vw);
 }
 
@@ -177,7 +177,7 @@ a {
 }
 
 .portfolio__list {
-    max-width: 21rem;
+    max-width: 23rem;
     padding: 0;
     margin: 0 auto;
     display: flex;
