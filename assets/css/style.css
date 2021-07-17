@@ -202,7 +202,7 @@ a {
   place-items: center;
   font-size: 2rem;
   color: #333;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.7);
   animation: 0.5s scale;
 }
 
