@@ -260,7 +260,8 @@ a {
         transition: .3s all;
     }
 
-    #btn:hover {
+    #btn:hover,
+    #btn:focus {
         background: white;
         color: #333;
     }
