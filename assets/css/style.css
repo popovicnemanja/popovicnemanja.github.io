@@ -252,7 +252,7 @@ a {
   }
 
   #btn:hover,
-#btn:focus {
+  #btn:focus {
     background: white;
     color: #333;
   }
